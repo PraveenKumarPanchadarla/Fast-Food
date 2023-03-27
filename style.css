@@ -456,7 +456,13 @@ section .container{
     justify-content: center;
     color: #333;
     cursor:pointer;
+    transition:.3s;
 
+}
+
+.contact .info .links li:hover{
+    background-color:#333;
+    color:#fff;
 }
 
 .contact .info .links a{
